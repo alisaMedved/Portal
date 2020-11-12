@@ -139,6 +139,8 @@ class Lesson extends Component {
             <div onClick={this.handleClick}>
                 <span>{this.state.click}</span>
                 <span>TEXT</span>
+                {/*// мы можем положить наш портал в реакт дерево куда пожелаем*/}
+                {/*// вот здесь то мы и пожелали его положить*/}
                 <MyPortal>
                     <div>
                         TEST PORTAL
